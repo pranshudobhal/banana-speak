@@ -13,6 +13,7 @@ body {
   margin: 0;
   font-family: 'Kalam', cursive;
   color: #333333;
+  background-color: var(--primary-color);
 }
 
 nav {
@@ -29,6 +30,17 @@ main {
   margin: auto;
   padding: 1rem;
   max-width: 600px;
+  border: 1px solid var(--black);
+  border-radius: 10px;
+  margin-top: 100px;
+  background-color: white;
+  height: 75vh;
+}
+
+.translate-heading {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 textarea {
@@ -38,6 +50,7 @@ textarea {
   min-height: 20vh;
   margin-top: 2rem;
   font-size: large;
+  margin-bottom: 1rem;
   font-family: inherit;
 }
 
@@ -50,10 +63,14 @@ button {
   font-size: large;
 }
 
+#translate-button {
+  border-radius: 10px;
+}
+
 #translate-output {
   box-sizing: border-box;
   width: 100%;
-  min-height: 10vh;
+  min-height: 15vh;
   max-height: 20vh;
   overflow: scroll;
   border: 1px solid var(--black);
